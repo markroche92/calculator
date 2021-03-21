@@ -1,0 +1,54 @@
+<html lang="en">
+
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <div>
+        <h1>Calculator App</h1>
+        <table>
+            <tr>
+                <td colspan=4><textarea name="results" id="results" rows=3 readonly="readonly" class="results"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan=4>
+                    <input type="text" class="message" id="message" />
+                </td>
+            </tr>
+            <tr>
+                <td colspan=3><input type="button" value="C" class="clear_button"></td>
+                <td><input type="button" value="^" class="op_button"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="7" class="num_button"></td>
+                <td><input type="button" value="8" class="num_button"></td>
+                <td><input type="button" value="9" class="num_button"></td>
+                <td><input type="button" value="/" class="op_button" id="/"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" class="num_button"></td>
+                <td><input type="button" value="5" class="num_button"></td>
+                <td><input type="button" value="6" class="num_button"></td>
+                <td><input type="button" value="*" class="op_button" id="*"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1" class="num_button"></td>
+                <td><input type="button" value="2" class="num_button"></td>
+                <td><input type="button" value="3" class="num_button"></td>
+                <td><input type="button" value="-" class="op_button" id="-"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="0" class="num_button"></td>
+                <td><input type="button" value="." class="dec_button" id="."></td>
+                <td><input type="button" value="=" class="eq_button" id="="></td>
+                <td><input type="button" value="+" class="op_button" id="+"></td>
+            </tr>
+        </table>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

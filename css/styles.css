@@ -1,0 +1,41 @@
+.dec_button,
+.num_button,
+.op_button,
+.eq_button {
+    width: 55;
+    height: 55;
+}
+
+.clear_button {
+    width: 175;
+    height: 55;
+}
+
+.message {
+    color: red;
+    border: none;
+}
+
+table {
+    border: 3px solid black;
+}
+
+textarea {
+    resize: none;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    /* <=iOS4, <= Android  2.3 */
+    -moz-box-sizing: border-box;
+    /* FF1+ */
+    box-sizing: border-box;
+    /* Chrome, IE8, Opera, Safari 5.1*/
+}
+
+h1 {
+    font-family: Arial;
+    margin-left: 5px;
+}
+
+div {
+    margin-left: 300px;
+}
