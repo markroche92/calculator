@@ -1,13 +1,11 @@
 .dec_button,
 .num_button,
 .op_button,
+.rp_button,
+.lp_button,
+.clear_button,
 .eq_button {
     width: 55;
-    height: 55;
-}
-
-.clear_button {
-    width: 175;
     height: 55;
 }
 
